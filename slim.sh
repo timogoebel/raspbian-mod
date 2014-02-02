@@ -10,6 +10,8 @@ apt-get -y remove --purge raspberrypi-artwork
 apt-get -y remove --purge omxplayer
 apt-get -y remove --purge cifs-utils samba-common smbclient cups-common
 apt-get -y remove --purge scratch
+apt-get -y remove --purge debian-reference-en dillo lxpolkit netsurf-gtk xdg-utils gtk2-engines alsa-utils lxtask menu-xdg gksu
+apt-get -y remove --purge libraspberrypi-dev libraspberrypi-doc dbus-x11 libx11-6 libx11-data libx11-xcb1 x11-common lxde-icon-theme gconf-service gconf2-common
 apt-get -y autoremove
 apt-get -y update
 apt-get -y install ruby
